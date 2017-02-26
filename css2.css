@@ -1,0 +1,109 @@
+html,body{
+    height:100%;
+    width:100%;
+    background:url('img/bg_02.png') center top;
+}
+#bg{
+    width:10rem;
+    height:16.08rem;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-8.04rem 0 0 -5rem;
+	text-align:center;
+}
+#bg .head-logo{
+    width:82%;
+    margin:1% auto;
+	position:relative;
+	z-index:5;
+}
+#bg .head-logo img{
+    width:100%;
+    height:100%;
+}
+#bg .video{
+    width:72%;
+    height:36%;
+    margin:8% auto;
+    position:relative;
+	z-index:5;
+}
+#bg .video .v1,#bg .video .v2,#bg .video .v3,#bg .video .v4{
+    width:46%;
+}
+#bg .video .v1{
+    float:left;
+}
+#bg .video .v2{
+    float:right;
+}
+#bg .video .v3{
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+#bg .video .v4{
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+#bg .video img{
+    width:100%;
+    height:100%;
+}
+#bg .ty{
+    height:20px;
+    margin:0 auto;
+	display:inline-block;
+	position:relative;
+	z-index:5;
+}
+#bg .ty .dg{
+    float:left;
+    border:1px solid #FAE4AB;
+    height:14px;
+    width:14px;
+    margin-top:0.05rem;
+}
+#bg .ty .dr{
+    color:#FAE4AB;
+    font-size:14px;
+    line-height: 22px;
+	
+}
+#bg .ty .dr a{
+    color:#3F0BF7;
+    font-size:inherit;
+}
+#bg .xf{
+    width:26%;
+    margin:4% auto;
+	position:relative;
+	z-index:5;
+}
+#bg .xf img{
+    width:100%;
+    height:100%;
+}
+#bg .sz{
+    width:30%;
+    margin:4% auto;
+	position:relative;
+	z-index:5;
+}
+#bg .sz img{
+    width:100%;
+    height:100%;
+}
+#bg2{
+	width:100%;
+}
+#bg2 img{
+	width:80.5%;
+	height:52.4%;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	margin-left:-40.25%;
+}

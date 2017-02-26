@@ -1,0 +1,70 @@
+html,body{
+    height:100%;
+    width:100%;
+    background:url('img/bg_02.png') center top;
+}
+#bg{
+    width:10rem;
+    height:16.08rem;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-8.04rem 0 0 -5rem;
+	z-index:10;
+}
+#bg .head-logo{
+    width:82%;
+    margin:0 auto;
+	position:relative;
+	z-index:5;
+}
+#bg .head-logo img{
+    width:100%;
+    height:100%;
+}
+#bg .hb{
+    width:50%;
+    margin:0 auto;
+	position:relative;
+	z-index:5;
+}
+#bg .hb img{
+    width:100%;
+    height:100%;
+}
+#bg .tp{
+    width:58%;
+    margin:2% auto;
+	position:relative;
+	z-index:5;
+}
+#bg .tp img{
+    width:100%;
+    height:100%;
+}
+#bg .first{
+    width:30%;
+    margin:0 auto;
+	position:relative;
+	z-index:5;
+}
+#bg .first a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+#bg .first a img{
+    width:100%;
+    height:100%;
+}
+#bg2{
+	width:100%;
+}
+#bg2 img{
+	width:80.5%;
+	height:52.4%;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	margin-left:-40.25%;
+}
