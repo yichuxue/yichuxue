@@ -7,9 +7,7 @@ function run(){
     var bg = document.querySelector('#bg');
     var pop = 750 / 1206;
     var a = oWidth / oHeight;
-    var b,c;
-    //var f = 47.7;
-
+    var b,c,g;
     if (a < pop) {
         b = (oWidth / pop);
         c  = oWidth;
@@ -22,7 +20,7 @@ function run(){
     bg.style.margin = ''+(-b/2)+'px 0 0 '+(-c/2)+'px';
     var d = oWidth / pop;
     var e = oHeight*pop;
-    console.log(d+"=="+e);
+    //console.log(d+"=="+e);
 }
 run();
 window.addEventListener('resize',function(){

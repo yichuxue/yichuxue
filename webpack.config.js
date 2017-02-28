@@ -20,12 +20,12 @@ module.exports = {
         new htmlWebpackPlugin({
             template: 'index.html',
             filename: 'index.html',
-            chunk: ['js.js']
+            chunks: ['js']
         }),
         new htmlWebpackPlugin({
             template: 'index2.html',
             filename: 'index2.html',
-            chunk: ['js2.js']
+            chunks: ['js2']
         })
     ]
 }
